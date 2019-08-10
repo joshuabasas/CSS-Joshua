@@ -1,0 +1,186 @@
+/*GENERAL CSS*/
+
+
+
+body{
+
+	font-size: 16px;
+	margin: 0px;
+	padding: 0px;	
+}
+	
+
+#nav{
+
+	background-color: #44929b;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+
+#nav-list{
+
+	list-style-type: none;
+	padding: 0px;	
+	margin: 0px;
+	word-spacing: 15px;
+	display: flex;		
+		
+}
+
+
+#nav-list li{
+	margin-top: 0px;
+	text-transform: uppercase;
+		
+}
+
+
+li a{
+
+	display: block;
+}
+
+
+
+a{
+	font-family: Lucida Sans;
+	padding: 10px;
+	text-decoration: none;
+	color: Black;
+	transition: background-color .6	s	
+
+
+}
+a:hover{
+	background-color: #69bcd5;
+}
+
+
+#social-link{
+	list-style-type: none;
+	display: flex;
+}
+
+#social-link li{
+	margin-right: 25px;
+
+}
+
+
+.title{
+	display: flex;	
+	justify-content: center;
+	font-family: Arial;
+	
+
+
+}
+
+#projects{
+		display:flex;	
+		flex-wrap:wrap;
+		justify-content:center;
+		
+}
+
+.friends img{
+	transition: box-shadow 0.4s;
+	
+}
+
+.friends img:hover{
+	box-shadow: 10px 10px 8px 10px;
+
+}
+
+
+.website img{
+	transition: box-shadow 0.4s;
+	
+}
+
+.website img:hover{
+	box-shadow: 10px 10px 8px 10px;
+
+}
+
+
+
+#testimonials{
+		display:flex;	
+		justify-content: center;
+}
+
+
+
+
+#skills{
+	background-color: blue;
+	display: flex;
+	margin: 10px 10px 10px 10px;
+}
+
+.talent p {
+	border-radius: 2px;
+	border-color: black;
+	border-style: solid;
+	margin: 20px 20px 20px 20px;	
+	width: 50%;
+	
+}
+
+.talent img{
+		margin: 50px 100px 10px 100px;	
+
+}
+
+
+
+#main{
+
+	background-image: linear-gradient(to left, rgba(26, 41, 128, 0.2), rgba(38, 208, 206, 0.1)), url(sample.jpg);
+	background-size: cover;
+	background-position: center center;
+	padding-top: 250px;
+	padding-bottom: 250px;
+
+}
+
+
+
+#name{
+
+   position: absolute;
+   color: white;
+   left: 50px;
+   top: 300px;
+   font-family: Lucida Sans;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+	#nav{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#nav-list{
+		flex-direction: column;
+	}
+
+	#nav #social-links{
+		order: -1;
+	}
+}
